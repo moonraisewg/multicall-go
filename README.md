@@ -1,14 +1,12 @@
 <br />
 <div align="center">
-<h3 align="center">DePocket Multicall</h3>
+<h3 align="center">Multicall Go</h3>
   <p align="center">
-    Multicall used on DePocket platforms to optimize onchain index experience
+    Multicall used on EVM farmily chains to optimize onchain index experience
     <br />
-    <a href="https://app.depocket.com/listing">View Integrated dApps</a>
+    <a href="https://github.com/moonraisewg/multicall-go/issues">Report Bug</a>
     ·
-    <a href="https://github.com/depocket/multicall-go/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/depocket/multicall-go/issues">Request Feature</a>
+    <a href="https://github.com/moonraisewg/multicall-go/issues">Request Feature</a>
   </p>
 </div>
 
@@ -19,7 +17,7 @@
 #### Download and install it:
 
 ```sh
-go get github.com/depocket/multicall-go
+go get github.com/moonraisewg/multicall-go
 ```
 
 ## Todo
@@ -37,7 +35,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/depocket/multicall-go/call"
+	"github.com/moonraisewg/multicall-go/call"
 	"log"
 	"math/big"
 )
